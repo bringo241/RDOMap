@@ -465,7 +465,10 @@ const MapBase = {
 
     if (Settings.isPinsPlacingEnabled) {
       Pins.onMap = true;
+      console.log('468 addPin')
       Pins.addPin(coords.latlng);
+      console.log('469 save')
+      Pins.save();
     }
   },
 

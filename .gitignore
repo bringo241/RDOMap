@@ -16,3 +16,5 @@ rdo/
 # Remove map tiles from Github
 assets/maps/jpg
 assets/maps/webp
+
+data/tmp/
